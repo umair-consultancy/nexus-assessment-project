@@ -1,0 +1,1605 @@
+[
+  {
+    "id": "gpt-5",
+    "icon": "🧠",
+    "bg": "#EEF2FD",
+    "name": "GPT-5",
+    "lab": "OpenAI",
+    "org": "OpenAI",
+    "desc": "OpenAI flagship. Native computer-use agents, advanced reasoning, 2M context.",
+    "tags": ["Flagship", "Agents", "Multimodal", "Reasoning"],
+    "badge": "hot",
+    "badgeClass": "badge-hot",
+    "rating": 4.9,
+    "reviews": 4210,
+    "price": "$7.50/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 7.5,
+    "isFeatured": true,
+    "isTrending": true,
+    "trendingOrder": 3,
+    "variations": [
+      {
+        "id": "gpt-5-full",
+        "icon": "🧠",
+        "name": "GPT-5.4",
+        "tag": "Flagship · computer use agents",
+        "desc": "Native computer-use agents, improved reasoning efficiency, 1M+ context.",
+        "ctx": "1.05M",
+        "speed": "~1.2s",
+        "price": "$2.50/$15/1M",
+        "updated": "Mar 2026",
+        "badge": "🔥 Most Popular",
+        "benefits": ["Native computer-use agents", "1M+ context window", "Improved reasoning efficiency", "High-precision professional tasks"]
+      }
+    ],
+    "comparison": {
+      "context": "1.05M",
+      "input": "$2.50",
+      "output": "$15",
+      "multimodal": true,
+      "speed": "🟢 Fast",
+      "bestFor": "High-precision professional tasks"
+    },
+    "promptExamples": [
+      {"useCase": "Summarize paper", "prompt": "Summarize this research paper in 3 bullet points focusing on key findings..."},
+      {"useCase": "Write code", "prompt": "Write a Python function to solve this problem with error handling..."}
+    ]
+  },
+  {
+    "id": "claude-opus-4.6",
+    "icon": "👑",
+    "bg": "#FFF8F0",
+    "name": "Claude Opus 4.6",
+    "lab": "Anthropic",
+    "org": "Anthropic",
+    "desc": "Anthropic's most capable model with Adaptive Thinking and 1M token context (beta).",
+    "tags": ["Flagship", "Agents", "Reasoning", "Coding"],
+    "badge": "new",
+    "badgeClass": "badge-new",
+    "rating": 4.8,
+    "reviews": 3892,
+    "price": "$5/$25/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 5,
+    "isFeatured": true,
+    "isTrending": true,
+    "trendingOrder": 1,
+    "variations": [
+      {
+        "id": "claude-opus-4.6-1m",
+        "icon": "👑",
+        "name": "Claude Opus 4.6",
+        "tag": "Flagship · Adaptive Thinking",
+        "desc": "Adaptive Thinking with 1M token context (beta), advanced reasoning capabilities.",
+        "ctx": "200K/1M β",
+        "speed": "~1.5s",
+        "price": "$5/$25/1M",
+        "updated": "Jan 2026",
+        "badge": "🆕 Just Released",
+        "benefits": ["Adaptive Thinking", "1M token context (beta)", "Advanced reasoning", "Best for complex tasks"]
+      }
+    ],
+    "comparison": {
+      "context": "200K/1M β",
+      "input": "$5",
+      "output": "$25",
+      "multimodal": true,
+      "speed": "🟠 Moderate",
+      "bestFor": "Agents, advanced coding"
+    },
+    "promptExamples": [
+      {"useCase": "Analyze document", "prompt": "Analyze this contract and identify key obligations, risks, and missing clauses..."},
+      {"useCase": "Debug code", "prompt": "Find and explain the bug in this function, then provide a fix..."}
+    ]
+  },
+  {
+    "id": "claude-sonnet-4.6",
+    "icon": "⚡",
+    "bg": "#FEF9F3",
+    "name": "Claude Sonnet 4.6",
+    "lab": "Anthropic",
+    "org": "Anthropic",
+    "desc": "Balanced performance with 1M context (beta). Great for coding, data, content at scale.",
+    "tags": ["Balanced", "Coding", "Multimodal"],
+    "badge": "new",
+    "badgeClass": "badge-new",
+    "rating": 4.7,
+    "reviews": 5210,
+    "price": "$3/$15/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 3,
+    "isFeatured": true,
+    "isTrending": true,
+    "trendingOrder": 2,
+    "variations": [
+      {
+        "id": "claude-sonnet-4.6-1m",
+        "icon": "⚡",
+        "name": "Claude Sonnet 4.6",
+        "tag": "Balanced · 1M context",
+        "desc": "Balanced performance with 1M token context (beta), optimized for coding and content.",
+        "ctx": "200K/1M β",
+        "speed": "~1.0s",
+        "price": "$3/$15/1M",
+        "updated": "Jan 2026",
+        "badge": "🆕 Just Released",
+        "benefits": ["1M token context (beta)", "Balanced performance", "Cost-effective", "Excellent for coding"]
+      }
+    ],
+    "comparison": {
+      "context": "200K/1M β",
+      "input": "$3",
+      "output": "$15",
+      "multimodal": true,
+      "speed": "🟢 Fast",
+      "bestFor": "Code, data, content at scale"
+    },
+    "promptExamples": [
+      {"useCase": "Generate content", "prompt": "Write a blog post about AI adoption in healthcare with statistics..."},
+      {"useCase": "Build API", "prompt": "Design and implement a RESTful API for a task management system..."}
+    ]
+  },
+  {
+    "id": "claude-haiku-4.5",
+    "icon": "🚀",
+    "bg": "#F0FDF9",
+    "name": "Claude Haiku 4.5",
+    "lab": "Anthropic",
+    "org": "Anthropic",
+    "desc": "Fastest Claude model. Perfect for real-time, high-volume applications.",
+    "tags": ["Fast", "Cost-effective", "Multimodal"],
+    "rating": 4.6,
+    "reviews": 3421,
+    "price": "$1/$5/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 1,
+    "isFeatured": true,
+    "variations": [
+      {
+        "id": "claude-haiku-4.5-fast",
+        "icon": "🚀",
+        "name": "Claude Haiku 4.5",
+        "tag": "Fastest · Real-time",
+        "desc": "Fastest Claude model with 200K context, perfect for real-time applications.",
+        "ctx": "200K",
+        "speed": "~0.3s",
+        "price": "$1/$5/1M",
+        "updated": "Nov 2025",
+        "badge": "⚡ Fastest",
+        "benefits": ["Ultra-fast response", "Lowest cost", "200K context", "Real-time capable"]
+      }
+    ],
+    "comparison": {
+      "context": "200K",
+      "input": "$1",
+      "output": "$5",
+      "multimodal": true,
+      "speed": "⚡ Fastest",
+      "bestFor": "Real-time, high-volume"
+    },
+    "promptExamples": [
+      {"useCase": "Quick summary", "prompt": "Summarize this email thread in 2 sentences..."},
+      {"useCase": "Simple queries", "prompt": "Answer this customer support question concisely..."}
+    ]
+  },
+  {
+    "id": "gemini-3.1-pro",
+    "icon": "🔬",
+    "bg": "#E8F0FE",
+    "name": "Gemini 3.1 Pro",
+    "lab": "Google",
+    "org": "Google DeepMind",
+    "desc": "Deep reasoning with 2M-5M context. Thought Signatures bring transparency.",
+    "tags": ["Flagship", "Reasoning", "Long Context"],
+    "badge": "hot",
+    "badgeClass": "badge-hot",
+    "rating": 4.7,
+    "reviews": 2876,
+    "price": "$2/$12/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 2,
+    "isFeatured": true,
+    "isTrending": true,
+    "trendingOrder": 4,
+    "variations": [
+      {
+        "id": "gemini-3.1-pro-5m",
+        "icon": "🔬",
+        "name": "Gemini 3.1 Pro",
+        "tag": "Deep Reasoning · 5M Context",
+        "desc": "Thought Signatures bring transparency with 2M-5M context window.",
+        "ctx": "2M–5M",
+        "speed": "~1.8s",
+        "price": "$2/$12/1M",
+        "updated": "Feb 2026",
+        "badge": "🔥 Hot",
+        "benefits": ["Thought Signatures transparency", "Up to 5M context", "Deep reasoning", "Excellent for research"]
+      }
+    ],
+    "comparison": {
+      "context": "2M–5M",
+      "input": "$2",
+      "output": "$12",
+      "multimodal": true,
+      "speed": "🟠 Moderate",
+      "bestFor": "Deep reasoning, long context"
+    },
+    "promptExamples": [
+      {"useCase": "Deep research", "prompt": "Research and synthesize information on quantum computing applications..."},
+      {"useCase": "Long document", "prompt": "Analyze this 100-page report and extract key insights..."}
+    ]
+  },
+  {
+    "id": "gemini-3-flash",
+    "icon": "⚡",
+    "bg": "#FFF3E0",
+    "name": "Gemini 3 Flash",
+    "lab": "Google",
+    "org": "Google DeepMind",
+    "desc": "Balanced performance for high-volume chat and coding with 1M context.",
+    "tags": ["Balanced", "Fast", "Multimodal"],
+    "rating": 4.5,
+    "reviews": 3987,
+    "price": "$2/$12/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 2,
+    "isFeatured": true,
+    "variations": [
+      {
+        "id": "gemini-3-flash-1m",
+        "icon": "⚡",
+        "name": "Gemini 3 Flash",
+        "tag": "Balanced · 1M Context",
+        "desc": "Balanced performance for high-volume chat and coding with 1M context.",
+        "ctx": "1M",
+        "speed": "~0.8s",
+        "price": "$2/$12/1M",
+        "updated": "Dec 2025",
+        "badge": "⚡ Fast",
+        "benefits": ["Balanced performance", "1M context", "Cost-effective", "Good for coding"]
+      }
+    ],
+    "comparison": {
+      "context": "1M",
+      "input": "$2",
+      "output": "$12",
+      "multimodal": true,
+      "speed": "🟠 Moderate",
+      "bestFor": "High-volume chat & coding"
+    },
+    "promptExamples": [
+      {"useCase": "Chat assistant", "prompt": "Help me troubleshoot my computer issue step by step..."},
+      {"useCase": "Code review", "prompt": "Review this code for bugs and suggest improvements..."}
+    ]
+  },
+  {
+    "id": "gemini-3.1-flash-lite",
+    "icon": "💡",
+    "bg": "#E8F5E9",
+    "name": "Gemini 3.1 Flash-Lite",
+    "lab": "Google",
+    "org": "Google DeepMind",
+    "desc": "Ultra-low-cost model for agents, translation, and high-volume use.",
+    "tags": ["Budget", "Fast", "Multimodal"],
+    "rating": 4.3,
+    "reviews": 4521,
+    "price": "$0.10/$0.40/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 0.10,
+    "isFeatured": true,
+    "variations": [
+      {
+        "id": "gemini-3.1-flash-lite-cheap",
+        "icon": "💡",
+        "name": "Gemini 3.1 Flash-Lite",
+        "tag": "Ultra-Low Cost",
+        "desc": "Ultra-low-cost model perfect for agents, translation, and high-volume use.",
+        "ctx": "1M",
+        "speed": "~0.4s",
+        "price": "$0.10/$0.40/1M",
+        "updated": "Dec 2025",
+        "badge": "💰 Best Value",
+        "benefits": ["Ultra-low cost", "Fast responses", "1M context", "Great for agents"]
+      }
+    ],
+    "comparison": {
+      "context": "1M",
+      "input": "$0.10",
+      "output": "$0.40",
+      "multimodal": true,
+      "speed": "⚡ Fastest",
+      "bestFor": "Low-cost agents, translation"
+    },
+    "promptExamples": [
+      {"useCase": "Translation", "prompt": "Translate this document to Spanish and French..."},
+      {"useCase": "Simple agent", "prompt": "Create an agent to answer FAQ questions..."}
+    ]
+  },
+  {
+    "id": "grok-4-1-fast",
+    "icon": "𝕏",
+    "bg": "#1a1a1a",
+    "name": "Grok-4-1 Fast",
+    "lab": "xAI",
+    "org": "xAI / Grok",
+    "desc": "4-agent architecture with real-time X data access and 2M context.",
+    "tags": ["Flagship", "Real-time", "Long Context"],
+    "badge": "hot",
+    "badgeClass": "badge-hot",
+    "rating": 4.5,
+    "reviews": 2156,
+    "price": "$0.20/$0.50/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 0.20,
+    "isFeatured": true,
+    "isTrending": true,
+    "trendingOrder": 5,
+    "variations": [
+      {
+        "id": "grok-4-1-fast-2m",
+        "icon": "𝕏",
+        "name": "Grok-4-1 Fast",
+        "tag": "Real-Time · 4-Agent Architecture",
+        "desc": "4-agent architecture with real-time X data access and 2M context.",
+        "ctx": "2000K",
+        "speed": "~0.9s",
+        "price": "$0.20/$0.50/1M",
+        "updated": "Feb 2026",
+        "badge": "⚡ Real-Time",
+        "benefits": ["Real-time X data access", "2M context", "4-agent architecture", "Live information"]
+      }
+    ],
+    "comparison": {
+      "context": "2000K",
+      "input": "$0.20",
+      "output": "$0.50",
+      "multimodal": true,
+      "speed": "🟠 Moderate",
+      "bestFor": "Real-time X data analysis"
+    },
+    "promptExamples": [
+      {"useCase": "Social media analysis", "prompt": "Analyze trending topics on X about AI..."},
+      {"useCase": "News updates", "prompt": "Get the latest updates on technology trends from social media..."}
+    ]
+  },
+  {
+    "id": "deepseek-v3",
+    "icon": "💻",
+    "bg": "#F0FDF9",
+    "name": "DeepSeek-V3",
+    "lab": "DeepSeek",
+    "org": "DeepSeek",
+    "desc": "1T param MoE model achieving GPT-4o level performance at open-source pricing.",
+    "tags": ["Open Source", "Budget", "Reasoning"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.4,
+    "reviews": 5678,
+    "price": "~$0.07/$0.28/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 0.07,
+    "isFeatured": true,
+    "isTrending": true,
+    "trendingOrder": 6,
+    "variations": [
+      {
+        "id": "deepseek-v3-moe",
+        "icon": "💻",
+        "name": "DeepSeek-V3",
+        "tag": "Open Source · 1T MoE",
+        "desc": "1T param MoE model achieving GPT-4o level performance at open-source pricing.",
+        "ctx": "128K",
+        "speed": "~0.7s",
+        "price": "~$0.07/$0.28/1M",
+        "updated": "Jan 2026",
+        "badge": "🔓 Open Source",
+        "benefits": ["Open weights", "Extremely low cost", "GPT-4o level performance", "128K context"]
+      }
+    ],
+    "comparison": {
+      "context": "128K",
+      "input": "~$0.07",
+      "output": "~$0.28",
+      "multimodal": true,
+      "speed": "🟠 Moderate",
+      "bestFor": "Budget general model"
+    },
+    "promptExamples": [
+      {"useCase": "General coding", "prompt": "Help me build a React component for a dashboard..."},
+      {"useCase": "Analysis", "prompt": "Analyze this dataset and provide insights..."}
+    ]
+  },
+  {
+    "id": "llama-4-maverick",
+    "icon": "🦙",
+    "bg": "#FEF3F9",
+    "name": "Llama 4 Maverick",
+    "lab": "Meta",
+    "org": "Meta",
+    "desc": "Meta's 400B MoE model with native multimodal understanding. Open weights.",
+    "tags": ["Open Source", "Flagship", "Multimodal"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.6,
+    "reviews": 6234,
+    "price": "Free (Open Source)",
+    "types": ["language", "vision", "code"],
+    "priceStart": 0,
+    "isFeatured": true,
+    "isTrending": true,
+    "trendingOrder": 6,
+    "variations": [
+      {
+        "id": "llama-4-maverick-400b",
+        "icon": "🦙",
+        "name": "Llama 4 Maverick",
+        "tag": "Open Source · 400B MoE",
+        "desc": "Meta's 400B Mixture-of-Experts model with native multimodal understanding released as open weights.",
+        "ctx": "128K",
+        "speed": "~1.2s",
+        "price": "Free",
+        "updated": "Feb 2026",
+        "badge": "🔓 Open Source",
+        "benefits": ["Open weights", "400B MoE", "Native multimodal", "No API costs"]
+      }
+    ],
+    "comparison": {
+      "context": "128K",
+      "input": "Free",
+      "output": "Free",
+      "multimodal": true,
+      "speed": "🟠 Moderate",
+      "bestFor": "Open-source multimodal"
+    },
+    "promptExamples": [
+      {"useCase": "Custom deployment", "prompt": "Deploy this model locally with custom fine-tuning..."},
+      {"useCase": "Research", "prompt": "Explore model capabilities for computer vision tasks..."}
+    ]
+  },
+  {
+    "id": "qwen3-max",
+    "icon": "🀄",
+    "bg": "#FFF7ED",
+    "name": "Qwen3-Max",
+    "lab": "Alibaba",
+    "org": "Alibaba (Qwen)",
+    "desc": "1T MoE model supporting 119 languages including APAC scripts.",
+    "tags": ["Multilingual", "Flagship", "Budget"],
+    "rating": 4.4,
+    "reviews": 2345,
+    "price": "$0.40/$1.20/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 0.40,
+    "isFeatured": true,
+    "variations": [
+      {
+        "id": "qwen3-max-1t",
+        "icon": "🀄",
+        "name": "Qwen3-Max",
+        "tag": "1T MoE · 119 Languages",
+        "desc": "1T param MoE model supporting 119 languages, beats GPT-4o on benchmarks.",
+        "ctx": "128K",
+        "speed": "~0.8s",
+        "price": "$0.40/$1.20/1M",
+        "updated": "Feb 2026",
+        "badge": "🌏 Multilingual",
+        "benefits": ["119 languages", "1T MoE", "APAC support", "Competitive pricing"]
+      }
+    ],
+    "comparison": {
+      "context": "128K",
+      "input": "$0.40",
+      "output": "$1.20",
+      "multimodal": true,
+      "speed": "🟠 Moderate",
+      "bestFor": "Multilingual / APAC"
+    },
+    "promptExamples": [
+      {"useCase": "Chinese content", "prompt": "Generate marketing copy in Chinese for a tech product..."},
+      {"useCase": "Multi-language", "prompt": "Translate this content to Japanese, Korean, and Vietnamese..."}
+    ]
+  },
+  {
+    "id": "devstral-2",
+    "icon": "🌀",
+    "bg": "#E8EAF6",
+    "name": "Devstral 2",
+    "lab": "Mistral",
+    "org": "Mistral AI",
+    "desc": "Fastest coding agent with 256K context, multi-file edits, and navigation.",
+    "tags": ["Coding", "Fast", "Agents"],
+    "badge": "hot",
+    "badgeClass": "badge-hot",
+    "rating": 4.5,
+    "reviews": 1876,
+    "price": "$0.40/$2/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.40,
+    "isFeatured": true,
+    "isTrending": true,
+    "trendingOrder": 6,
+    "variations": [
+      {
+        "id": "devstral-2-coder",
+        "icon": "🌀",
+        "name": "Devstral 2",
+        "tag": "Fastest Coding Agent",
+        "desc": "Mistral's coding agent with 256K context, multi-file edits, and codebase navigation.",
+        "ctx": "256K",
+        "speed": "~0.6s",
+        "price": "$0.40/$2/1M",
+        "updated": "Feb 2026",
+        "badge": "💻 Coding",
+        "benefits": ["Fastest for coding", "256K context", "Multi-file edits", "Codebase navigation"]
+      }
+    ],
+    "comparison": {
+      "context": "256K",
+      "input": "$0.40",
+      "output": "$2",
+      "multimodal": true,
+      "speed": "⚡ Fastest",
+      "bestFor": "Software engineering agents"
+    },
+    "promptExamples": [
+      {"useCase": "Refactoring", "prompt": "Refactor this codebase to use modern patterns and improve performance..."},
+      {"useCase": "Debug project", "prompt": "Debug this entire project by identifying and fixing all issues..."}
+    ]
+  },
+  {
+    "id": "nemotron-ultra-253b",
+    "icon": "🟢",
+    "bg": "#F0FDF9",
+    "name": "Nemotron Ultra 253B",
+    "lab": "NVIDIA",
+    "org": "NVIDIA",
+    "desc": "Enterprise RAG-optimized model with Neural Architecture Search compression.",
+    "tags": ["Enterprise", "RAG", "Optimized"],
+    "rating": 4.3,
+    "reviews": 1567,
+    "price": "$0.60/$1.80/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.60,
+    "isFeatured": true,
+    "variations": [
+      {
+        "id": "nemotron-ultra-253b-rag",
+        "icon": "🟢",
+        "name": "Nemotron Ultra 253B",
+        "tag": "Enterprise RAG Optimized",
+        "desc": "Enterprise reasoning & RAG with Neural Architecture Search compression for enterprise use.",
+        "ctx": "131K",
+        "speed": "~0.9s",
+        "price": "$0.60/$1.80/1M",
+        "updated": "Jan 2026",
+        "badge": "🏢 Enterprise",
+        "benefits": ["RAG optimized", "Enterprise grade", "Compressed efficiency", "131K context"]
+      }
+    ],
+    "comparison": {
+      "context": "131K",
+      "input": "$0.60",
+      "output": "$1.80",
+      "multimodal": false,
+      "speed": "🟠 Moderate",
+      "bestFor": "Enterprise reasoning & RAG"
+    },
+    "promptExamples": [
+      {"useCase": "Enterprise search", "prompt": "Search and analyze enterprise documents for compliance..."},
+      {"useCase": "RAG query", "prompt": "Answer this question using our knowledge base..."}
+    ]
+  },
+  {
+    "id": "kimi-k2.5",
+    "icon": "🌙",
+    "bg": "#F3E8FF",
+    "name": "Kimi K2.5",
+    "lab": "Moonshot",
+    "org": "Moonshot AI",
+    "desc": "Agent Swarm Orchestration with 262K context for complex multi-step workflows.",
+    "tags": ["Agents", "Visual Coding", "Long Context"],
+    "rating": 4.4,
+    "reviews": 1234,
+    "price": "$0.60/$3.00/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 0.60,
+    "isFeatured": true,
+    "variations": [
+      {
+        "id": "kimi-k2.5-swarm",
+        "icon": "🌙",
+        "name": "Kimi K2.5",
+        "tag": "Agent Swarm Orchestration",
+        "desc": "Agent Swarm Orchestration with 262K context enables complex multi-step workflows.",
+        "ctx": "262K",
+        "speed": "~0.8s",
+        "price": "$0.60/$3.00/1M",
+        "updated": "Jan 2026",
+        "badge": "🤖 Agents",
+        "benefits": ["Agent swarm orchestration", "262K context", "Visual coding", "Multi-agent workflows"]
+      }
+    ],
+    "comparison": {
+      "context": "262K",
+      "input": "$0.60",
+      "output": "$3.00",
+      "multimodal": true,
+      "speed": "⚡ Fastest",
+      "bestFor": "Multi-agent RAG, visual coding"
+    },
+    "promptExamples": [
+      {"useCase": "Multi-agent workflow", "prompt": "Create a workflow that researches, analyzes, and summarizes..."},
+      {"useCase": "Visual coding", "prompt": "Build this interface by analyzing the screenshot..."}
+    ]
+  },
+  {
+    "id": "glm-5",
+    "icon": "🔷",
+    "bg": "#E3F2FD",
+    "name": "GLM-5",
+    "lab": "Zhipu",
+    "org": "Zhipu AI",
+    "desc": "Agentic engineering & coding model optimized for Chinese and multilingual tasks.",
+    "tags": ["Coding", "Multilingual", "Agents"],
+    "rating": 4.2,
+    "reviews": 987,
+    "price": "$1.00/$3.20/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 1.00,
+    "isFeatured": true,
+    "variations": [
+      {
+        "id": "glm-5-agent",
+        "icon": "🔷",
+        "name": "GLM-5",
+        "tag": "Agentic Engineering",
+        "desc": "Agentic engineering & coding model optimized for Chinese and multilingual tasks.",
+        "ctx": "200K",
+        "speed": "~0.7s",
+        "price": "$1.00/$3.20/1M",
+        "updated": "Dec 2025",
+        "badge": "🏗️ Engineering",
+        "benefits": ["Agentic capabilities", "Chinese optimized", "200K context", "Multilingual"]
+      }
+    ],
+    "comparison": {
+      "context": "200K",
+      "input": "$1.00",
+      "output": "$3.20",
+      "multimodal": false,
+      "speed": "⚡ Fastest",
+      "bestFor": "Agentic engineering & coding"
+    },
+    "promptExamples": [
+      {"useCase": "Chinese development", "prompt": "Build a full-stack application for Chinese market..."},
+      {"useCase": "Technical documentation", "prompt": "Create technical documentation in Chinese with examples..."}
+    ]
+  },
+  {
+    "id": "gpt-5-turbo",
+    "icon": "🧠",
+    "bg": "#EEF2FD",
+    "name": "GPT-5 Turbo",
+    "lab": "OpenAI",
+    "org": "OpenAI",
+    "desc": "Faster, more affordable GPT-5 variant for general tasks.",
+    "tags": ["Fast", "Cost-effective", "General"],
+    "rating": 4.7,
+    "reviews": 3567,
+    "price": "$1.50/$7.50/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 1.5,
+    "variations": [
+      {
+        "id": "gpt-5-turbo-fast",
+        "icon": "🧠",
+        "name": "GPT-5 Turbo",
+        "tag": "Faster · More Affordable",
+        "desc": "Faster GPT-5 variant optimized for general tasks and cost efficiency.",
+        "ctx": "1M",
+        "speed": "~0.8s",
+        "price": "$1.50/$7.50/1M",
+        "updated": "Mar 2026",
+        "badge": "⚡ Fast",
+        "benefits": ["Faster response", "More affordable", "1M context", "General purpose"]
+      }
+    ],
+    "promptExamples": [
+      {"useCase": "Quick tasks", "prompt": "Generate a summary of this meeting notes..."},
+      {"useCase": "Content creation", "prompt": "Write social media posts for a product launch..."}
+    ]
+  },
+  {
+    "id": "deepseek-r1",
+    "icon": "💻",
+    "bg": "#F0FDF9",
+    "name": "DeepSeek-R1",
+    "lab": "DeepSeek",
+    "org": "DeepSeek",
+    "desc": "Open reasoning model with deep mathematical capabilities.",
+    "tags": ["Open Source", "Reasoning", "Math"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.3,
+    "reviews": 3456,
+    "price": "~$0.14/$0.55/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.14,
+    "isFeatured": true,
+    "variations": [
+      {
+        "id": "deepseek-r1-reasoning",
+        "icon": "💻",
+        "name": "DeepSeek-R1",
+        "tag": "Reasoning Specialist",
+        "desc": "Open reasoning model with deep mathematical and logical reasoning capabilities.",
+        "ctx": "128K",
+        "speed": "~1.0s",
+        "price": "~$0.14/$0.55/1M",
+        "updated": "Mar 2026",
+        "badge": "🔓 Open Source",
+        "benefits": ["Open weights", "Reasoning specialist", "128K context", "Great for math"]
+      }
+    ],
+    "promptExamples": [
+      {"useCase": "Math problem", "prompt": "Solve this complex calculus problem step by step..."},
+      {"useCase": "Logical reasoning", "prompt": "Analyze this logical puzzle and find the solution..."}
+    ]
+  },
+  {
+    "id": "llama-4-scout",
+    "icon": "🦙",
+    "bg": "#FEF3F9",
+    "name": "Llama 4 Scout",
+    "lab": "Meta",
+    "org": "Meta",
+    "desc": "Efficient 17B model for on-device and edge computing.",
+    "tags": ["Open Source", "Efficient", "On-device"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.2,
+    "reviews": 2876,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "variations": [
+      {
+        "id": "llama-4-scout-17b",
+        "icon": "🦙",
+        "name": "Llama 4 Scout",
+        "tag": "Efficient · On-Device",
+        "desc": "Efficient 17B model perfect for on-device and edge computing applications.",
+        "ctx": "128K",
+        "speed": "~0.6s",
+        "price": "Free",
+        "updated": "Feb 2026",
+        "badge": "🔓 Open Source",
+        "benefits": ["Open weights", "17B parameters", "On-device capable", "Edge computing"]
+      }
+    ],
+    "promptExamples": [
+      {"useCase": "Mobile app", "prompt": "Create an AI assistant for a mobile application..."},
+      {"useCase": "Edge inference", "prompt": "Run inference on edge devices with low latency..."}
+    ]
+  },
+  {
+    "id": "command-r-plus",
+    "icon": "🔵",
+    "bg": "#E3F2FD",
+    "name": "Command R+",
+    "lab": "Cohere",
+    "org": "Cohere",
+    "desc": "Enterprise-focused model with strong RAG capabilities.",
+    "tags": ["Enterprise", "RAG", "Multilingual"],
+    "rating": 4.3,
+    "reviews": 1234,
+    "price": "$0.15/$0.60/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.15,
+    "variations": [
+      {
+        "id": "command-r-plus-rag",
+        "icon": "🔵",
+        "name": "Command R+",
+        "tag": "Enterprise RAG",
+        "desc": "Enterprise-focused model with strong retrieval-augmented generation capabilities.",
+        "ctx": "128K",
+        "speed": "~0.7s",
+        "price": "$0.15/$0.60/1M",
+        "updated": "Dec 2025",
+        "badge": "🏢 Enterprise",
+        "benefits": ["Enterprise grade", "Strong RAG", "128K context", "Cost-effective"]
+      }
+    ],
+    "promptExamples": [
+      {"useCase": "Enterprise search", "prompt": "Search company documents and provide answers..."},
+      {"useCase": "Knowledge base", "prompt": "Build a knowledge base assistant for employee queries..."}
+    ]
+  },
+  {
+    "id": "gpt-4-turbo",
+    "icon": "🧠",
+    "bg": "#EEF2FD",
+    "name": "GPT-4 Turbo",
+    "lab": "OpenAI",
+    "org": "OpenAI",
+    "desc": "Previous generation flagship. Reliable and cost-effective for many use cases.",
+    "tags": ["Reliable", "Cost-effective", "General"],
+    "rating": 4.5,
+    "reviews": 8765,
+    "price": "$0.50/$2.00/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 0.5,
+    "variations": [
+      {
+        "id": "gpt-4-turbo-v2",
+        "icon": "🧠",
+        "name": "GPT-4 Turbo",
+        "tag": "Proven Reliability",
+        "desc": "Previous generation flagship. Reliable and cost-effective for many use cases.",
+        "ctx": "128K",
+        "speed": "~0.9s",
+        "price": "$0.50/$2.00/1M",
+        "updated": "2024",
+        "badge": "✓ Proven",
+        "benefits": ["Proven reliability", "Cost-effective", "128K context", "General purpose"]
+      }
+    ],
+    "promptExamples": [
+      {"useCase": "General tasks", "prompt": "Help me with various general tasks..."},
+      {"useCase": "Content analysis", "prompt": "Analyze this document for key information..."}
+    ]
+  },
+  {
+    "id": "mistral-large",
+    "icon": "🌀",
+    "bg": "#E8EAF6",
+    "name": "Mistral Large",
+    "lab": "Mistral",
+    "org": "Mistral AI",
+    "desc": "Open-source large language model for general tasks.",
+    "tags": ["Open Source", "General", "Balanced"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.1,
+    "reviews": 2345,
+    "price": "$0.10/$0.30/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.10,
+    "variations": [
+      {
+        "id": "mistral-large-v2",
+        "icon": "🌀",
+        "name": "Mistral Large",
+        "tag": "Open Source · General",
+        "desc": "Open-source large language model for general tasks with good performance.",
+        "ctx": "128K",
+        "speed": "~0.7s",
+        "price": "$0.10/$0.30/1M",
+        "updated": "Dec 2025",
+        "badge": "🔓 Open Source",
+        "benefits": ["Open weights", "General purpose", "128K context", "Cost-effective"]
+      }
+    ],
+    "promptExamples": [
+      {"useCase": "General queries", "prompt": "Answer general questions across various topics..."},
+      {"useCase": "Content generation", "prompt": "Generate content for various use cases..."}
+    ]
+  },
+  {
+    "id": "phi-4",
+    "icon": "🪟",
+    "bg": "#F3E8FF",
+    "name": "Phi-4",
+    "lab": "Microsoft",
+    "org": "Microsoft",
+    "desc": "Efficient small model with strong reasoning capabilities.",
+    "tags": ["Efficient", "Reasoning", "Small"],
+    "rating": 4.2,
+    "reviews": 1876,
+    "price": "$0.05/$0.15/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.05,
+    "variations": [
+      {
+        "id": "phi-4-reasoning",
+        "icon": "🪟",
+        "name": "Phi-4",
+        "tag": "Efficient · Small Model",
+        "desc": "Efficient small model with strong reasoning capabilities at low cost.",
+        "ctx": "128K",
+        "speed": "~0.4s",
+        "price": "$0.05/$0.15/1M",
+        "updated": "Jan 2026",
+        "badge": "💰 Budget",
+        "benefits": ["Extremely low cost", "Strong reasoning", "Small footprint", "Fast responses"]
+      }
+    ],
+    "promptExamples": [
+      {"useCase": "Quick reasoning", "prompt": "Solve this logical puzzle..."},
+      {"useCase": "Simple tasks", "prompt": "Help with everyday tasks quickly..."}
+    ]
+  },
+  {
+    "id": "titan-premium",
+    "icon": "📦",
+    "bg": "#FEF3F0",
+    "name": "Titan Premium",
+    "lab": "Amazon",
+    "org": "Amazon",
+    "desc": "Amazon's flagship model for enterprise applications.",
+    "tags": ["Enterprise", "AWS", "Optimized"],
+    "rating": 4.3,
+    "reviews": 1234,
+    "price": "$0.80/$2.40/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.80,
+    "variations": [
+      {
+        "id": "titan-premium-aws",
+        "icon": "📦",
+        "name": "Titan Premium",
+        "tag": "AWS Enterprise",
+        "desc": "Amazon's flagship model optimized for enterprise applications on AWS.",
+        "ctx": "128K",
+        "speed": "~0.8s",
+        "price": "$0.80/$2.40/1M",
+        "updated": "Dec 2025",
+        "badge": "☁️ AWS",
+        "benefits": ["AWS integrated", "Enterprise grade", "128K context", "Optimized performance"]
+      }
+    ],
+    "promptExamples": [
+      {"useCase": "AWS integration", "prompt": "Build an AI assistant integrated with AWS services..."},
+      {"useCase": "Enterprise app", "prompt": "Create an enterprise application with AI capabilities..."}
+    ]
+  },
+  {
+    "id": "ernie-4.0",
+    "icon": "🔴",
+    "bg": "#FFE8E8",
+    "name": "ERNIE 4.0",
+    "lab": "Baidu",
+    "org": "Baidu",
+    "desc": "Chinese-focused model with strong multimodal capabilities.",
+    "tags": ["Chinese", "Multimodal", "Enterprise"],
+    "rating": 4.1,
+    "reviews": 876,
+    "price": "$0.30/$1.20/1M tk",
+    "types": ["language", "vision", "code"],
+    "priceStart": 0.30,
+    "variations": [
+      {
+        "id": "ernie-4.0-chinese",
+        "icon": "🔴",
+        "name": "ERNIE 4.0",
+        "tag": "Chinese · Multimodal",
+        "desc": "Chinese-focused model with strong multimodal capabilities and enterprise features.",
+        "ctx": "128K",
+        "speed": "~0.7s",
+        "price": "$0.30/$1.20/1M",
+        "updated": "Dec 2025",
+        "badge": "🇨🇳 Chinese",
+        "benefits": ["Chinese optimized", "Multimodal", "Enterprise features", "128K context"]
+      }
+    ],
+    "promptExamples": [
+      {"useCase": "Chinese content", "prompt": "Generate content in Chinese for business use..."},
+      {"useCase": "Chinese analysis", "prompt": "Analyze Chinese documents and extract key information..."}
+    ]
+  },
+  {
+    "id": "falcon-180b",
+    "icon": "🦅",
+    "bg": "#E0F2F1",
+    "name": "Falcon 180B",
+    "lab": "TII",
+    "org": "TII (Falcon)",
+    "desc": "Open-source 180B model for advanced language tasks.",
+    "tags": ["Open Source", "Large", "Reasoning"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.0,
+    "reviews": 765,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "variations": [
+      {
+        "id": "falcon-180b-open",
+        "icon": "🦅",
+        "name": "Falcon 180B",
+        "tag": "Open Source · Large",
+        "desc": "Open-source 180B model for advanced language tasks and reasoning.",
+        "ctx": "2048K",
+        "speed": "~1.5s",
+        "price": "Free",
+        "updated": "Jan 2026",
+        "badge": "🔓 Open Source",
+        "benefits": ["Open weights", "180B parameters", "2M context", "Advanced capabilities"]
+      }
+    ],
+    "promptExamples": [
+      {"useCase": "Advanced tasks", "prompt": "Perform complex analysis and reasoning tasks..."},
+      {"useCase": "Research", "prompt": "Assist with research and analysis..."}
+    ]
+  },
+  {
+    "id": "jamba-1.5",
+    "icon": "🎯",
+    "bg": "#F3E8FF",
+    "name": "Jamba 1.5",
+    "lab": "AI21",
+    "org": "AI21 Labs",
+    "desc": "Efficient model with strong reasoning capabilities.",
+    "tags": ["Efficient", "Reasoning", "General"],
+    "rating": 4.0,
+    "reviews": 876,
+    "price": "$0.20/$0.80/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.20,
+    "promptExamples": [
+      {"useCase": "General reasoning", "prompt": "Solve this logical problem..."},
+      {"useCase": "Content analysis", "prompt": "Analyze this text and extract key points..."}
+    ]
+  },
+  {
+    "id": "jurrasic-1",
+    "icon": "🦕",
+    "bg": "#FFE8E8",
+    "name": "Jurrasic-1",
+    "lab": "AI21",
+    "org": "AI21 Labs",
+    "desc": "Large language model for complex tasks.",
+    "tags": ["Large", "General", "Reasoning"],
+    "rating": 3.9,
+    "reviews": 654,
+    "price": "$0.40/$1.60/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.40,
+    "promptExamples": [
+      {"useCase": "Complex analysis", "prompt": "Analyze this complex document..."},
+      {"useCase": "Writing assistance", "prompt": "Help write this technical document..."}
+    ]
+  },
+  {
+    "id": "perplexity-sonar-small",
+    "icon": "🔍",
+    "bg": "#F0FDF9",
+    "name": "Sonar Small",
+    "lab": "Perplexity",
+    "org": "Perplexity AI",
+    "desc": "Small, efficient model for quick responses.",
+    "tags": ["Small", "Fast", "Efficient"],
+    "rating": 4.1,
+    "reviews": 1234,
+    "price": "$0.20/$0.80/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.20,
+    "promptExamples": [
+      {"useCase": "Quick queries", "prompt": "Answer this question quickly..."},
+      {"useCase": "Simple tasks", "prompt": "Help with everyday tasks..."}
+    ]
+  },
+  {
+    "id": "perplexity-sonar-large",
+    "icon": "🔍",
+    "bg": "#E0F2F1",
+    "name": "Sonar Large",
+    "lab": "Perplexity",
+    "org": "Perplexity AI",
+    "desc": "Larger model with better reasoning capabilities.",
+    "tags": ["Large", "Reasoning", "General"],
+    "rating": 4.3,
+    "reviews": 987,
+    "price": "$0.40/$1.60/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.40,
+    "promptExamples": [
+      {"useCase": "Deep analysis", "prompt": "Analyze this complex topic..."},
+      {"useCase": "Research assistance", "prompt": "Help with research tasks..."}
+    ]
+  },
+  {
+    "id": "pi-3.5",
+    "icon": "💜",
+    "bg": "#F3E8FF",
+    "name": "Pi 3.5",
+    "lab": "Inflection",
+    "org": "Inflection AI",
+    "desc": "Personal AI assistant with strong conversational abilities.",
+    "tags": ["Personal", "Conversational", "General"],
+    "rating": 4.2,
+    "reviews": 2345,
+    "price": "$0.30/$1.20/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.30,
+    "promptExamples": [
+      {"useCase": "Conversation", "prompt": "Have a conversation about..."},
+      {"useCase": "Personal assistance", "prompt": "Help me with personal tasks..."}
+    ]
+  },
+  {
+    "id": "allenai-olmo-7b",
+    "icon": "🏛",
+    "bg": "#E3F2FD",
+    "name": "OLMo 7B",
+    "lab": "AllenAI",
+    "org": "Allen AI",
+    "desc": "Open-source model optimized for reasoning.",
+    "tags": ["Open Source", "Reasoning", "Small"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.0,
+    "reviews": 654,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "Reasoning tasks", "prompt": "Solve this reasoning problem..."},
+      {"useCase": "Analysis", "prompt": "Analyze this logical argument..."}
+    ]
+  },
+  {
+    "id": "allenai-olmo-7b-instruct",
+    "icon": "🏛",
+    "bg": "#E8EAF6",
+    "name": "OLMo 7B Instruct",
+    "lab": "AllenAI",
+    "org": "Allen AI",
+    "desc": "Instruction-tuned version for following commands.",
+    "tags": ["Open Source", "Instruction", "General"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.1,
+    "reviews": 543,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "Instruction following", "prompt": "Follow these instructions precisely..."},
+      {"useCase": "Command execution", "prompt": "Execute this command..."}
+    ]
+  },
+  {
+    "id": "allenai-tulu-2",
+    "icon": "🏛",
+    "bg": "#FEF9F3",
+    "name": "Tulu 2",
+    "lab": "AllenAI",
+    "org": "Allen AI",
+    "desc": "Open-source chat model for general use.",
+    "tags": ["Open Source", "Chat", "General"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 3.9,
+    "reviews": 432,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "General chat", "prompt": "Chat about various topics..."},
+      {"useCase": "QA assistance", "prompt": "Answer questions on various subjects..."}
+    ]
+  },
+  {
+    "id": "stability-ai-stable-cascade-3b",
+    "icon": "🎨",
+    "bg": "#F8E8FF",
+    "name": "Stable Cascade 3B",
+    "lab": "Stability",
+    "org": "Stability AI",
+    "desc": "Text-to-image generation with quality results.",
+    "tags": ["Image", "Generation", "Creative"],
+    "rating": 4.0,
+    "reviews": 1876,
+    "price": "$0.03/$0.12/1M tk",
+    "types": ["image"],
+    "priceStart": 0.03,
+    "promptExamples": [
+      {"useCase": "Image generation", "prompt": "Generate an image of..."},
+      {"useCase": "Creative visuals", "prompt": "Create visual content for..."}
+    ]
+  },
+  {
+    "id": "stability-ai-stable-diffusion-xl",
+    "icon": "🎨",
+    "bg": "#E8F5E9",
+    "name": "Stable Diffusion XL",
+    "lab": "Stability",
+    "org": "Stability AI",
+    "desc": "Advanced image generation with detailed control.",
+    "tags": ["Image", "Generation", "Professional"],
+    "rating": 4.3,
+    "reviews": 3456,
+    "price": "$0.06/$0.24/1M tk",
+    "types": ["image"],
+    "priceStart": 0.06,
+    "promptExamples": [
+      {"useCase": "Professional images", "prompt": "Generate professional product images..."},
+      {"useCase": "Marketing visuals", "prompt": "Create marketing visual content..."}
+    ]
+  },
+  {
+    "id": "gemma-7b",
+    "icon": "💎",
+    "bg": "#E0F2F1",
+    "name": "Gemma 7B",
+    "lab": "Google",
+    "org": "Google (Open)",
+    "desc": "Open-source 7B model from Google.",
+    "tags": ["Open Source", "Efficient", "Small"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.0,
+    "reviews": 1234,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "General tasks", "prompt": "Help with various tasks..."},
+      {"useCase": "Analysis", "prompt": "Analyze this text..."}
+    ]
+  },
+  {
+    "id": "dbrx-instruct",
+    "icon": "🧱",
+    "bg": "#FDF5E0",
+    "name": "DBRX Instruct",
+    "lab": "Databricks",
+    "org": "Databricks",
+    "desc": "Open-source model for instruction following.",
+    "tags": ["Open Source", "Instruction", "Enterprise"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 3.9,
+    "reviews": 432,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "Instructions", "prompt": "Follow these instructions..."},
+      {"useCase": "Enterprise tasks", "prompt": "Help with enterprise workflows..."}
+    ]
+  },
+  {
+    "id": "granite-13b",
+    "icon": "🧱",
+    "bg": "#E8EAF6",
+    "name": "Granite 13B",
+    "lab": "Databricks",
+    "org": "Databricks",
+    "desc": "Enterprise-focused open-source model.",
+    "tags": ["Open Source", "Enterprise", "Reasoning"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 3.8,
+    "reviews": 321,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "Enterprise analysis", "prompt": "Analyze enterprise data..."},
+      {"useCase": "Business tasks", "prompt": "Help with business intelligence..."}
+    ]
+  },
+  {
+    "id": "granite-7b",
+    "icon": "🧱",
+    "bg": "#F0FDF9",
+    "name": "Granite 7B",
+    "lab": "Databricks",
+    "org": "Databricks",
+    "desc": "Efficient enterprise model for quick tasks.",
+    "tags": ["Open Source", "Enterprise", "Efficient"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 3.7,
+    "reviews": 287,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "Quick tasks", "prompt": "Help with quick enterprise tasks..."},
+      {"useCase": "Simple queries", "prompt": "Answer business questions..."}
+    ]
+  },
+  {
+    "id": "ibm-granite-20b",
+    "icon": "🔵",
+    "bg": "#E3F2FD",
+    "name": "Granite 20B",
+    "lab": "IBM",
+    "org": "IBM",
+    "desc": "IBM's enterprise language model.",
+    "tags": ["Enterprise", "IBM", "Professional"],
+    "rating": 4.0,
+    "reviews": 654,
+    "price": "$0.50/$2.00/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.50,
+    "promptExamples": [
+      {"useCase": "Enterprise solutions", "prompt": "Provide enterprise solutions..."},
+      {"useCase": "Business analysis", "prompt": "Analyze business requirements..."}
+    ]
+  },
+  {
+    "id": "ibm-granite-13b",
+    "icon": "🔵",
+    "bg": "#F3E8FF",
+    "name": "Granite 13B",
+    "lab": "IBM",
+    "org": "IBM",
+    "desc": "Smaller, efficient IBM enterprise model.",
+    "tags": ["Enterprise", "IBM", "Efficient"],
+    "rating": 3.8,
+    "reviews": 543,
+    "price": "$0.30/$1.20/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.30,
+    "promptExamples": [
+      {"useCase": "Efficient tasks", "prompt": "Handle efficient enterprise tasks..."},
+      {"useCase": "Quick analysis", "prompt": "Quick business analysis..."}
+    ]
+  },
+  {
+    "id": "llama-3.1-405b",
+    "icon": "🦙",
+    "bg": "#FEF3F9",
+    "name": "Llama 3.1 405B",
+    "lab": "Meta",
+    "org": "Meta",
+    "desc": "Open-source 405B model, strong general capabilities.",
+    "tags": ["Open Source", "Large", "General"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.2,
+    "reviews": 4567,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "General use", "prompt": "Help with general tasks..."},
+      {"useCase": "Large scale", "prompt": "Handle large-scale analysis..."}
+    ]
+  },
+  {
+    "id": "llama-3.1-70b",
+    "icon": "🦙",
+    "bg": "#F8E8FF",
+    "name": "Llama 3.1 70B",
+    "lab": "Meta",
+    "org": "Meta",
+    "desc": "Efficient 70B model for balanced performance.",
+    "tags": ["Open Source", "Efficient", "General"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.0,
+    "reviews": 3876,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "Balanced tasks", "prompt": "Handle balanced workloads..."},
+      {"useCase": "Efficient operations", "prompt": "Perform efficient operations..."}
+    ]
+  },
+  {
+    "id": "gpt-neox-20b",
+    "icon": "⚡",
+    "bg": "#FFF8F0",
+    "name": "GPT-NeoX 20B",
+    "lab": "EleutherAI",
+    "org": "EleutherAI",
+    "desc": "Open-source 20B model for general use.",
+    "tags": ["Open Source", "General", "Efficient"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 3.8,
+    "reviews": 1234,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "General use", "prompt": "Help with general questions..."},
+      {"useCase": "Analysis tasks", "prompt": "Perform analysis tasks..."}
+    ]
+  },
+  {
+    "id": "bloom-176b",
+    "icon": "🌍",
+    "bg": "#E8F5E9",
+    "name": "BLOOM 176B",
+    "lab": "BigScience",
+    "org": "BigScience",
+    "desc": "Large open-source multilingual model.",
+    "tags": ["Open Source", "Large", "Multilingual"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 3.7,
+    "reviews": 876,
+    "price": "Free (Open Source)",
+    "types": ["language"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "Multilingual tasks", "prompt": "Handle multilingual content..."},
+      {"useCase": "Large scale analysis", "prompt": "Large scale analysis..."}
+    ]
+  },
+  {
+    "id": "minimax-abab-6.5",
+    "icon": "🟡",
+    "bg": "#F3E8FF",
+    "name": "ABAB 6.5",
+    "lab": "MiniMax",
+    "org": "MiniMax",
+    "desc": "Chinese-focused efficient model.",
+    "tags": ["Chinese", "Efficient", "General"],
+    "rating": 3.9,
+    "reviews": 432,
+    "price": "$0.20/$0.80/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.20,
+    "promptExamples": [
+      {"useCase": "Chinese content", "prompt": "Generate Chinese content..."},
+      {"useCase": "Efficient tasks", "prompt": "Handle efficient Chinese tasks..."}
+    ]
+  },
+  {
+    "id": "minimax-abab-5.5-chat",
+    "icon": "🟡",
+    "bg": "#F8E8FF",
+    "name": "ABAB 5.5 Chat",
+    "lab": "MiniMax",
+    "org": "MiniMax",
+    "desc": "Optimized for conversational AI.",
+    "tags": ["Chinese", "Chat", "Conversational"],
+    "rating": 3.8,
+    "reviews": 321,
+    "price": "$0.15/$0.60/1M tk",
+    "types": ["language"],
+    "priceStart": 0.15,
+    "promptExamples": [
+      {"useCase": "Chinese chat", "prompt": "Chat in Chinese about..."},
+      {"useCase": "Conversational AI", "prompt": "Have natural conversations..."}
+    ]
+  },
+  {
+    "id": "hunyuan-pro",
+    "icon": "🐧",
+    "bg": "#E0F2F1",
+    "name": "Hunyuan Pro",
+    "lab": "Tencent",
+    "org": "Tencent",
+    "desc": "Tencent's advanced Chinese language model.",
+    "tags": ["Chinese", "Advanced", "General"],
+    "rating": 4.1,
+    "reviews": 543,
+    "price": "$0.25/$1.00/1M tk",
+    "types": ["language", "code"],
+    "priceStart": 0.25,
+    "promptExamples": [
+      {"useCase": "Advanced Chinese", "prompt": "Generate advanced Chinese content..."},
+      {"useCase": "Chinese analysis", "prompt": "Analyze Chinese documents..."}
+    ]
+  },
+  {
+    "id": "hunyuan-lite",
+    "icon": "🐧",
+    "bg": "#F3E8FF",
+    "name": "Hunyuan Lite",
+    "lab": "Tencent",
+    "org": "Tencent",
+    "desc": "Efficient Chinese model for quick tasks.",
+    "tags": ["Chinese", "Efficient", "Quick"],
+    "rating": 3.9,
+    "reviews": 432,
+    "price": "$0.15/$0.60/1M tk",
+    "types": ["language"],
+    "priceStart": 0.15,
+    "promptExamples": [
+      {"useCase": "Quick Chinese", "prompt": "Quick Chinese generation..."},
+      {"useCase": "Efficient Chinese", "prompt": "Efficient Chinese tasks..."}
+    ]
+  },
+  {
+    "id": "qwen2-72b",
+    "icon": "🀄",
+    "bg": "#F0FDF9",
+    "name": "Qwen2 72B",
+    "lab": "Alibaba",
+    "org": "Alibaba (Qwen)",
+    "desc": "Open-source 72B model from Alibaba.",
+    "tags": ["Open Source", "Chinese", "Efficient"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.0,
+    "reviews": 2345,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "Chinese open source", "prompt": "Use Qwen for Chinese tasks..."},
+      {"useCase": "Efficient Chinese", "prompt": "Efficient Chinese content generation..."}
+    ]
+  },
+  {
+    "id": "huggingface-h2o",
+    "icon": "🤗",
+    "bg": "#FFF7ED",
+    "name": "H2O",
+    "lab": "HuggingFace",
+    "org": "HuggingFace",
+    "desc": "Open-source model for general use.",
+    "tags": ["Open Source", "General", "Efficient"],
+    "badge": "open-source",
+    "badgeClass": "badge-open-source",
+    "rating": 4.1,
+    "reviews": 1876,
+    "price": "Free (Open Source)",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "General open source", "prompt": "Use H2O for general tasks..."},
+      {"useCase": "Analysis", "prompt": "Analyze with H2O..."}
+    ]
+  },
+  {
+    "id": "cerebras-gpt-1.3b",
+    "icon": "🧠",
+    "bg": "#FEF3F0",
+    "name": "Cerebras GPT 1.3B",
+    "lab": "Cerebras",
+    "org": "Cerebras",
+    "desc": "Optimized for Cerebras hardware.",
+    "tags": ["Optimized", "Hardware", "Efficient"],
+    "rating": 3.8,
+    "reviews": 321,
+    "price": "Hardware dependent",
+    "types": ["language", "code"],
+    "priceStart": 0,
+    "promptExamples": [
+      {"useCase": "Hardware optimized", "prompt": "Run on Cerebras hardware..."},
+      {"useCase": "Efficient inference", "prompt": "Efficient inference tasks..."}
+    ]
+  },
+  {
+    "id": "writer-palmyra",
+    "icon": "✍️",
+    "bg": "#F3E8FF",
+    "name": "Palmyra",
+    "lab": "Writer",
+    "org": "Writer",
+    "desc": "Enterprise-focused model for business content.",
+    "tags": ["Enterprise", "Business", "Writing"],
+    "rating": 4.0,
+    "reviews": 432,
+    "price": "$0.40/$1.60/1M tk",
+    "types": ["language"],
+    "priceStart": 0.40,
+    "promptExamples": [
+      {"useCase": "Business writing", "prompt": "Generate business content..."},
+      {"useCase": "Enterprise content", "prompt": "Create enterprise materials..."}
+    ]
+  },
+  {
+    "id": "writer-palmyra-xl",
+    "icon": "✍️",
+    "bg": "#E8EAF6",
+    "name": "Palmyra XL",
+    "lab": "Writer",
+    "org": "Writer",
+    "desc": "Larger model for complex business content.",
+    "tags": ["Enterprise", "Business", "Large"],
+    "rating": 4.2,
+    "reviews": 345,
+    "price": "$0.60/$2.40/1M tk",
+    "types": ["language"],
+    "priceStart": 0.60,
+    "promptExamples": [
+      {"useCase": "Complex business", "prompt": "Generate complex business content..."},
+      {"useCase": "Enterprise writing", "prompt": "Enterprise writing tasks..."}
+    ]
+  }
+]

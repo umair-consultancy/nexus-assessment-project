@@ -1,0 +1,11 @@
+[
+  {"icon": "💻", "title": "Code Generation", "desc": "Claude Opus 4.6, Devstral 2, GPT-5.4, Qwen3-Coder", "prompt": "I need help with code generation and debugging", "models": ["gpt-5", "claude-opus-4.6", "devstral-2"]},
+  {"icon": "🎨", "title": "Image Generation", "desc": "gpt-image-1.5, Grok-Imagine-Pro, Gemini Flash Image", "prompt": "I want to generate realistic images for marketing", "models": ["gpt-image-1.5", "grok-imagine"]},
+  {"icon": "🤖", "title": "AI Agents", "desc": "GPT-5.4, Claude Opus 4.6, kimi-k2.5, Grok-4-1", "prompt": "I need to create AI agents for workflow automation", "models": ["gpt-5", "claude-opus-4.6", "kimi-k25"]},
+  {"icon": "📄", "title": "Document Analysis", "desc": "Claude Sonnet 4.6, Gemini 3.1 Pro, Nemotron Ultra", "prompt": "I need to analyse documents and extract key information", "models": ["claude-sonnet-4.6", "gemini-3.1-pro"]},
+  {"icon": "🎬", "title": "Video Generation", "desc": "Sora 2 Pro, Veo 3.1, Grok-Imagine-Video", "prompt": "I want to create professional video content", "models": ["sora-2-pro", "veo-3"]},
+  {"icon": "🔊", "title": "Voice & Audio", "desc": "Gemini-TTS, ElevenLabs, Whisper v3", "prompt": "I want to add voice and speech recognition to my app", "models": []},
+  {"icon": "🌐", "title": "Multilingual / Translation", "desc": "Qwen3-Max (119 langs), Gemini 3.1 Flash-Lite, GLM-4.7", "prompt": "I need multilingual AI for global markets", "models": ["qwen3-max", "gemini-3.1-flash-lite"]},
+  {"icon": "🔢", "title": "Math & Research", "desc": "DeepSeek-R1, QwQ-32B, Gemini 3.1 Pro", "prompt": "I need advanced math and reasoning models for research", "models": ["deepseek-r1", "qwq-32b"]},
+  {"icon": "✍️", "title": "Write content", "desc": "Claude Sonnet 4.6, GPT-5 Turbo, Gemini 3 Flash", "prompt": "Help me write content", "models": ["claude-sonnet-4.6", "gpt-5-turbo"]}
+]

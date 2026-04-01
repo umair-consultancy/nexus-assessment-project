@@ -1,0 +1,18 @@
+[
+  {"date": "Mar 26", "org": "Google DeepMind", "title": "Gemini 2.5 Pro achieves new SOTA on reasoning benchmarks", "summary": "Scores 83.2% on AIME 2025, outperforming previous state-of-the-art by 7.3 points."},
+  {"date": "Mar 22", "org": "MIT CSAIL", "title": "Scaling laws for multimodal models: new empirical findings", "summary": "Research reveals unexpected scaling dynamics when combining text, vision, and audio modalities."},
+  {"date": "Mar 18", "org": "Anthropic", "title": "Constitutional AI v2: improved alignment through iterative refinement", "summary": "New methodology achieves 40% reduction in harmful outputs while maintaining helpfulness."},
+  {"date": "Mar 15", "org": "Meta AI", "title": "Llama 4 Scout & Maverick: natively multimodal from the ground up", "summary": "17B MoE architecture trained on 40T tokens with native vision-language understanding."},
+  {"date": "Mar 10", "org": "Stanford NLP", "title": "Long-context recall: how models handle 1M+ token windows", "summary": "Comprehensive evaluation shows sharp recall degradation beyond 1M tokens for most models."},
+  {"date": "Mar 5", "org": "DeepSeek", "title": "DeepSeek-R1 open weights: reproducing frontier reasoning at minimal cost", "summary": "Full weight release enables fine-tuning and customization at fraction of GPT-5 costs."},
+  {"date": "Mar 1", "org": "OpenAI", "title": "GPT-5.4 — Native Computer-Use Agents", "summary": "GPT-5.4 introduces native computer-use agents, letting it operate browsers, apps, and files autonomously."},
+  {"date": "Feb 28", "org": "xAI", "title": "Grok-4-1 Fast — 4-Agent Architecture", "summary": "Grok's 4-agent architecture with real-time X (Twitter) data access and 2M context window."},
+  {"date": "Feb 20", "org": "Mistral", "title": "Devstral 2 — Fastest Coding Agent", "summary": "Mistral's coding agent with 256K context, multi-file edits, and codebase navigation capabilities."},
+  {"date": "Feb 15", "org": "Alibaba", "title": "Qwen3-Max: 1T MoE supporting 119 languages", "summary": "1T param MoE beats GPT-4o on benchmarks while supporting 119 languages including APAC scripts."},
+  {"date": "Feb 10", "org": "Meta", "title": "Llama 4 Maverick — 400B MoE", "summary": "Meta's 400B Mixture-of-Experts model with native multimodal understanding released as open weights."},
+  {"date": "Feb 5", "org": "Google", "title": "Gemini 3.1 Pro — Thought Signatures", "summary": "Thought Signatures bring new transparency to deep reasoning with verifiable chain-of-thought."},
+  {"date": "Jan 30", "org": "Anthropic", "title": "Claude Opus 4.6 — Adaptive Thinking", "summary": "Adaptive Thinking and 1M token context (beta) mark a major leap in agent capability."},
+  {"date": "Jan 25", "org": "Moonshot", "title": "Kimi K2.5 — Agent Swarm Orchestration", "summary": "Agent Swarm Orchestration with 262K context enables complex multi-step workflows."},
+  {"date": "Jan 20", "org": "NVIDIA", "title": "Nemotron Ultra 253B — Enterprise RAG", "summary": "Neural Architecture Search compression for enterprise with optimized RAG performance."},
+  {"date": "Jan 15", "org": "DeepSeek", "title": "DeepSeek-V3 — 1T param MoE model", "summary": "1T params, 40% less memory, achieves GPT-4o level performance at open-source pricing."}
+]

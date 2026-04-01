@@ -1,0 +1,17 @@
+[
+  {"icon": "🧠", "name": "GPT-5.4", "org": "OpenAI", "context": "1.05M", "input": "$2.50", "output": "$15", "multimodal": true, "speed": "🟢 Fast", "bestFor": "High-precision professional tasks"},
+  {"icon": "👑", "name": "Claude Opus 4.6", "org": "Anthropic", "context": "200K/1M β", "input": "$5", "output": "$25", "multimodal": true, "speed": "🟠 Moderate", "bestFor": "Agents, advanced coding"},
+  {"icon": "⚡", "name": "Claude Sonnet 4.6", "org": "Anthropic", "context": "200K/1M β", "input": "$3", "output": "$15", "multimodal": true, "speed": "🟢 Fast", "bestFor": "Code, data, content at scale"},
+  {"icon": "🚀", "name": "Claude Haiku 4.5", "org": "Anthropic", "context": "200K", "input": "$1", "output": "$5", "multimodal": true, "speed": "⚡ Fastest", "bestFor": "Real-time, high-volume"},
+  {"icon": "🔬", "name": "Gemini 3.1 Pro", "org": "Google", "context": "2M–5M", "input": "$2", "output": "$12", "multimodal": true, "speed": "🟠 Moderate", "bestFor": "Deep reasoning, long context"},
+  {"icon": "⚡", "name": "Gemini 3 Flash", "org": "Google", "context": "1M", "input": "$2", "output": "$12", "multimodal": true, "speed": "🟠 Moderate", "bestFor": "High-volume chat & coding"},
+  {"icon": "💡", "name": "Gemini 3.1 Flash-Lite", "org": "Google", "context": "1M", "input": "$0.10", "output": "$0.40", "multimodal": true, "speed": "⚡ Fastest", "bestFor": "Low-cost agents, translation"},
+  {"icon": "𝕏", "name": "Grok-4-1 Fast", "org": "xAI", "context": "2000K", "input": "$0.20", "output": "$0.50", "multimodal": true, "speed": "🟠 Moderate", "bestFor": "Real-time X data analysis"},
+  {"icon": "💻", "name": "DeepSeek-V3", "org": "DeepSeek", "context": "128K", "input": "~$0.07", "output": "~$0.28", "multimodal": true, "speed": "🟠 Moderate", "bestFor": "Budget general model"},
+  {"icon": "🦙", "name": "Llama 4 Maverick", "org": "Meta", "context": "128K", "input": "Free", "output": "Free", "multimodal": true, "speed": "🟠 Moderate", "bestFor": "Open-source multimodal"},
+  {"icon": "🀄", "name": "Qwen3-Max", "org": "Alibaba", "context": "128K", "input": "$0.40", "output": "$1.20", "multimodal": true, "speed": "🟠 Moderate", "bestFor": "Multilingual / APAC"},
+  {"icon": "🌀", "name": "Devstral 2", "org": "Mistral", "context": "256K", "input": "$0.40", "output": "$2", "multimodal": true, "speed": "⚡ Fastest", "bestFor": "Software engineering agents"},
+  {"icon": "🟢", "name": "Nemotron Ultra 253B", "org": "NVIDIA", "context": "131K", "input": "$0.60", "output": "$1.80", "multimodal": false, "speed": "🟠 Moderate", "bestFor": "Enterprise reasoning & RAG"},
+  {"icon": "🌙", "name": "Kimi K2.5", "org": "Moonshot", "context": "262K", "input": "$0.60", "output": "$3.00", "multimodal": true, "speed": "⚡ Fastest", "bestFor": "Multi-agent RAG, visual coding"},
+  {"icon": "🔷", "name": "GLM-5", "org": "Zhipu AI", "context": "200K", "input": "$1.00", "output": "$3.20", "multimodal": false, "speed": "⚡ Fastest", "bestFor": "Agentic engineering & coding"}
+]

@@ -1,0 +1,8 @@
+[
+  {"badge": "🆕 Just Released", "badgeBg": "#E2F5EF", "badgeColor": "#0A5E49", "org": "Anthropic", "title": "Claude Opus 4.6 & Sonnet 4.6", "summary": "Adaptive Thinking and 1M token context (beta) mark a major leap in agent capability."},
+  {"badge": "🔥 Hot", "badgeBg": "#FDF1EB", "badgeColor": "#C8622A", "org": "Google DeepMind", "title": "Gemini 3.1 Pro — Thought Signatures", "summary": "Thought Signatures bring new transparency to deep reasoning. 5M context window."},
+  {"badge": "🤖 Computer Use", "badgeBg": "#EBF0FC", "badgeColor": "#1E4DA8", "org": "OpenAI", "title": "GPT-5.4 — Native Computer-Use Agents", "summary": "GPT-5.4 introduces native computer-use agents, letting it operate browsers, apps, and files autonomously."},
+  {"badge": "⚡ Real-Time", "badgeBg": "#FDEDF1", "badgeColor": "#9B2042", "org": "xAI", "title": "Grok-4-1 Fast — 4-Agent Architecture", "summary": "Grok's 4-agent architecture with real-time X (Twitter) data access and 2M context."},
+  {"badge": "🔓 Open Source", "badgeBg": "#EBF0FC", "badgeColor": "#1E4DA8", "org": "Meta", "title": "Llama 4 Maverick — 400B MoE", "summary": "Meta's 400B Mixture-of-Experts model with native multimodal understanding."},
+  {"badge": "💻 Coding", "badgeBg": "#E2F5EF", "badgeColor": "#0A5E49", "org": "Mistral", "title": "Devstral 2 — Fastest Coding Agent", "summary": "Mistral's coding agent with 256K context, multi-file edits, and codebase navigation."}
+]
